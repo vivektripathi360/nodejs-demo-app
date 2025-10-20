@@ -1,16 +1,23 @@
 {
-  "dependencies": {
-    "express": "^5.1.0"
-  },
   "name": "nodejs-demo-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivektripathi360/nodejs-demo-app.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivektripathi360/nodejs-demo-app/issues"
+  },
+  "homepage": "https://github.com/vivektripathi360/nodejs-demo-app#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
